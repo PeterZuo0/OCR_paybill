@@ -1,0 +1,8 @@
+pdf2image == 1.17.0
+pillow
+pytesseract
+opencv-python
+pdfplumber
+tabula-py
+pandas
+openpyxl
