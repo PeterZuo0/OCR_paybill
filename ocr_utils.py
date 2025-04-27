@@ -41,6 +41,6 @@ def extract_text_from_pdf(pdf_path: str, dpi: int = 300) -> str:
 
 
 if __name__ == "__main__":
-    pdf_file = "./input_pdf/PaySlip20250403.pdf"
+    pdf_file = r"D:/Peter/护理工作/公司账单/PaySlip20250403.pdf"
     text = extract_text_from_pdf(pdf_file)
     print(text)
