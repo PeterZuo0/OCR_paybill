@@ -49,8 +49,8 @@ def process_payslips(input_dir: str, output_excel: str) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    pdf_dir = r"input_pdf"
-    output_excel = r"ayslips_summary.xlsx"
+    pdf_dir = r"D:/Peter/护理工作/公司账单"
+    output_excel = r"D:/Study/Github_project/OCR_paybill_output/ayslips_summary.xlsx"
 
     df = process_payslips(pdf_dir, output_excel)
     print(df.head())
